@@ -66,6 +66,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             )}
           </li>
           <li>
+            <Link to="/" rel="home">
+              Home
+            </Link>
+          </li>
+          <li>
             {next && (
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
