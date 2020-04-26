@@ -1,6 +1,4 @@
-<h1 align="center">
-  Gatsby's markdown blog starter with Able content webhooks
-</h1>
+# Gatsby's markdown blog starter with Able content webhooks
 
 This is a base project that can be used to get started with a Gatsby markdown blog integrated with [Able](https://able.bio) content webhooks.
 
