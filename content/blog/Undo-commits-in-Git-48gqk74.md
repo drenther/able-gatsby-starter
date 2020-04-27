@@ -1,12 +1,12 @@
 ---
 title: Undo commits in Git
-date: 2020-04-26T18:58:52.926534Z
+date: 2020-04-27T11:23:53.417451Z
 description: How to undo the most recent commits in Git
 ---
 
 One of the most common tasks when using Git is undoing commits on a local branch. Let’s look at how we can do that:
 
-## **Undo last commit on the local branch**
+## Undo last commit on the local branch
 
 ```
 git reset --hard HEAD^
@@ -44,11 +44,11 @@ If you have already pushed the commits that you want to undo to the remote repos
 git push origin branch_name --force-with-lease
 ```
 
-Once the commits are undone locally, you can force push them to the remote repository. **Force pushing** is generally considered bad practice and for the right reasons because it unconditionally overwrites the remote branch with whatever you are pushing from the local branch which can possibly overwrite someone else’s work. Therefore, it's better to use `--force-with-lease` instead. It is a safer version of force because its default behaviour makes sure you do not overwrite changes made by others. You can read further on how it works in [**this blog post by Atlassian Bitbucket**](https://blog.developer.atlassian.com/force-with-lease/).
+Once the commits are undone locally, you can force push them to the remote repository. _**Force pushing**_ is generally considered bad practice and for the right reasons because it unconditionally overwrites the remote branch with whatever you are pushing from the local branch which can possibly overwrite someone else’s work. Therefore, it's better to use `--force-with-lease` instead. It is a safer version of force because its default behaviour makes sure you do not overwrite changes made by others. You can read further on how it works in [**this blog post by Atlassian Bitbucket**](https://blog.developer.atlassian.com/force-with-lease/).
 
 ## Undo using commit ID
 
-Every commit in git has a SHA1 hash value as its ID. You can even choose to undo to a specific commit using this commit ID.
+Every commit in git has a SHA1 hash value as its ID. You can even choose to undo to a specific commit using its commit ID.
 
 ```
 git reset --hard commit_id
