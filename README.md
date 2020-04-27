@@ -50,4 +50,4 @@ The current repo will have post files written in markdown under the `content/blo
 
 You can use something like [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/) to deploy a gatsby project like this. 
 
-For auto updating blog enable auto deployment on push to master in your hosting service. This is enable a new gatsby build to be pushed out whenever a new commit is made to this repo by you manually or by the able webhook consumer API.
+For auto updating blog enable auto deployment on push to master in your hosting service. This will enable a new gatsby build to be pushed out whenever a new commit is made to this repo by you manually or by the able webhook consumer API.
