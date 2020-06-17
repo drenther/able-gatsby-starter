@@ -1,6 +1,6 @@
 ---
 title: JavaScript - Remove an Item from an Array
-date: 2020-06-17T17:54:08.380551Z
+date: 2020-06-17T17:55:12.163311Z
 description: Various ways to remove elements from a JavaScript Array.
 ---
 
